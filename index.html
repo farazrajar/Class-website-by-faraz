@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Computer Science 01 Students Data</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Class</h1>
+            <p>Where Learning Meets Innovation</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <h1>Student Data Retrieval</h1>
+        <form id="studentForm">
+            <label for="rollNo">Enter Roll Number:</label>
+            <input type="text" id="rollNo" name="rollNo" placeholder="e.g., 001" required>
+            <button type="submit">Get Data</button>
+        </form>
+
+        <div id="studentData" class="hidden">
+            <div class="student-card">
+                <img id="studentPhoto" src="" alt="Student Photo" class="photo">
+                <div class="student-info">
+                    <h3 id="studentName"></h3>
+                    <p><strong>Roll No:</strong> <span id="studentRollNo"></span></p>
+                    <p><strong>Class:</strong> <span id="studentClass"></span></p>
+                    <a href="profile.html" id="profileLink">View Full Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quote Section -->
+    <section class="quote">
+        <p>"Education is the most powerful weapon which you can use to change the world."</p>
+        <p class="author">– Nelson Mandela</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html><!-- Poetry Section -->
+<section class="poetry">
+    <h2>Motivational Poem</h2>
+    <p>
+        "Believe in yourself,<br>
+        For you are strong and bold.<br>
+        Every challenge you face,<br>
+        Is a story yet untold.<br>
+        <br>
+        Keep learning, keep growing,<br>
+        The future is yours to hold.<br>
+        Together as a class,<br>
+        We’ll break every mold."
+    </p>
+</section><!-- Gallery Section -->
+<section class="gallery">
+    <h2>Class Gallery</h2>
+    <div class="gallery-images">
+        <img src="images/gallery1.jpeg" alt="Class Activity 1">
+        <img src="Images/gallery2.jpeg" alt="Class Activity 2">
+        <img src="Images/gallery3.jpeg" alt="Class Activity 3">
+    </div>
+</section><!-- Footer -->
+<footer>
+    <p>&copy; 2025 Class Student Data. All rights reserved.</p>
+    <p>Follow us: 
+        <a href="#">Facebook</a> | 
+        <a href="#">Twitter</a> | 
+        <a href="#">Instagram</a>
+    </p>
+</footer>

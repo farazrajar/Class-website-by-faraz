@@ -1,0 +1,99 @@
+/* Hero Section */
+.hero {
+    background-image: url('images/1.jpg'); /* Add a classroom image */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+/* Quote Section */
+.quote {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quote p {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+    margin: 0;
+}
+
+.quote .author {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}/* Poetry Section */
+.poetry {
+    background: #6a11cb;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.poetry h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.poetry p {
+    font-size: 18px;
+    line-height: 1.6;
+}/* Gallery Section */
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #6a11cb;
+}/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #6a11cb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
